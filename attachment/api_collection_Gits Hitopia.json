@@ -1,0 +1,79 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Gits Hitopia",
+    "dateExported": "2023-06-08T06:24:14.878Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "077dbcff-1260-44e6-b774-41c1c2678e6a",
+            "colId": "6c45f5a2-6edd-47c7-89a4-262ab82cf19b",
+            "containerId": "",
+            "name": "Weighted String",
+            "url": "http://localhost:3000/weighted-strings?string=abbcccd&queries=1,3,9,8",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-08T04:12:37.386Z",
+            "modified": "2023-06-08T04:17:01.406Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "string",
+                    "value": "abbcccd",
+                    "isPath": false
+                },
+                {
+                    "name": "queries",
+                    "value": "1,3,9,8",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "7ba82bbc-4c60-4228-a2b5-14782930be11",
+            "colId": "6c45f5a2-6edd-47c7-89a4-262ab82cf19b",
+            "containerId": "",
+            "name": "Highest Palindrom",
+            "url": "http://localhost:3000/highest-palindrom?string=134211&key=1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-08T04:20:10.944Z",
+            "modified": "2023-06-08T06:19:06.973Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "string",
+                    "value": "134211",
+                    "isPath": false
+                },
+                {
+                    "name": "key",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c2136064-45fb-4d38-a64e-487530abb4e9",
+            "colId": "6c45f5a2-6edd-47c7-89a4-262ab82cf19b",
+            "containerId": "",
+            "name": "Balanced Brackets",
+            "url": "http://localhost:3000/balanced-bracket?bracket_string={ ( ( [ ] ) [ ] ) [ ] }",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-06-08T03:51:53.387Z",
+            "modified": "2023-06-08T04:33:24.976Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "bracket_string",
+                    "value": "{ ( ( [ ] ) [ ] ) [ ] }",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
